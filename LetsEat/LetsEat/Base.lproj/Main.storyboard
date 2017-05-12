@@ -188,7 +188,18 @@
                     <view key="view" contentMode="scaleToFill" id="7Yy-x9-kop">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Nx8-HF-SoZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Nx8-HF-SoZ" firstAttribute="top" secondItem="h3p-xc-FFM" secondAttribute="bottom" id="8sZ-Hw-tCS"/>
+                            <constraint firstItem="7I3-8K-zgj" firstAttribute="top" secondItem="Nx8-HF-SoZ" secondAttribute="bottom" id="LDd-kJ-zHa"/>
+                            <constraint firstAttribute="trailing" secondItem="Nx8-HF-SoZ" secondAttribute="trailing" id="PEX-eN-wHC"/>
+                            <constraint firstItem="Nx8-HF-SoZ" firstAttribute="leading" secondItem="7Yy-x9-kop" secondAttribute="leading" id="b0z-Xs-S6n"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gQf-AR-Ptq">
                         <nil key="title"/>

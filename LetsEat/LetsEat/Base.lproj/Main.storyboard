@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bPR-hQ-hS9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--MAP-->
         <scene sceneID="kqI-q5-FlV">
             <objects>
                 <viewController id="UzC-K5-jRe" sceneMemberID="viewController">
@@ -22,13 +22,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="wKn-RJ-Ghe"/>
+                    <tabBarItem key="tabBarItem" title="MAP" image="icon-map-off" selectedImage="icon-map-on" id="wKn-RJ-Ghe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3cs-9y-Y9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="58" y="55"/>
         </scene>
-        <!--Item 1-->
+        <!--EXPLORE-->
         <scene sceneID="rNo-v1-Ohn">
             <objects>
                 <viewController id="AaW-fK-ubp" sceneMemberID="viewController">
@@ -41,7 +41,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="I4l-pa-PpM"/>
+                    <tabBarItem key="tabBarItem" title="EXPLORE" image="icon-explore-off" selectedImage="icon-explore-on" id="I4l-pa-PpM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oB2-Ig-gDN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,4 +66,10 @@
             <point key="canvasLocation" x="-894" y="-272"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon-explore-off" width="35" height="23"/>
+        <image name="icon-explore-on" width="35" height="23"/>
+        <image name="icon-map-off" width="16" height="22"/>
+        <image name="icon-map-on" width="16" height="22"/>
+    </resources>
 </document>

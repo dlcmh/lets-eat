@@ -41,7 +41,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="o2P-tf-Nzd"/>
+                    <navigationItem key="navigationItem" id="o2P-tf-Nzd">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="9pW-N2-5gA">
+                            <rect key="frame" x="128.5" y="5.5" width="118" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oB2-Ig-gDN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

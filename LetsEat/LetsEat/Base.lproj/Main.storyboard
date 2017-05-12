@@ -47,12 +47,28 @@
                             <rect key="frame" x="128.5" y="5.5" width="118" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O6t-fs-glB">
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O6t-fs-glB">
                                     <rect key="frame" x="0.0" y="0.0" width="118" height="33"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIN-30-Drh">
+                                            <rect key="frame" x="0.0" y="0.0" width="42" height="33"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="o9s-sN-y1p">
+                                            <rect key="frame" x="42" y="0.0" width="76" height="33"/>
+                                        </imageView>
+                                    </subviews>
                                 </stackView>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="O6t-fs-glB" firstAttribute="leading" secondItem="9pW-N2-5gA" secondAttribute="leading" id="84z-9v-cUY"/>
+                                <constraint firstAttribute="trailing" secondItem="O6t-fs-glB" secondAttribute="trailing" id="FaL-Kn-rrs"/>
+                                <constraint firstAttribute="bottom" secondItem="O6t-fs-glB" secondAttribute="bottom" id="Lqa-m3-oGK"/>
+                                <constraint firstItem="O6t-fs-glB" firstAttribute="top" secondItem="9pW-N2-5gA" secondAttribute="top" id="ehT-Jx-9SO"/>
+                            </constraints>
                         </view>
                     </navigationItem>
                 </viewController>
@@ -118,6 +134,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="down-arrow" width="10" height="7"/>
         <image name="icon-explore-off" width="35" height="23"/>
         <image name="icon-explore-on" width="35" height="23"/>
         <image name="icon-map-off" width="16" height="22"/>

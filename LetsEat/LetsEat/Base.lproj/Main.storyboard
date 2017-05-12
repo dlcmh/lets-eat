@@ -68,12 +68,19 @@
                                         </imageView>
                                     </subviews>
                                 </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjP-eS-tkL">
+                                    <rect key="frame" x="0.0" y="0.5" width="118" height="32.5"/>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="O6t-fs-glB" firstAttribute="leading" secondItem="9pW-N2-5gA" secondAttribute="leading" id="84z-9v-cUY"/>
+                                <constraint firstAttribute="bottom" secondItem="DjP-eS-tkL" secondAttribute="bottom" id="D4H-7x-vZJ"/>
                                 <constraint firstAttribute="trailing" secondItem="O6t-fs-glB" secondAttribute="trailing" id="FaL-Kn-rrs"/>
+                                <constraint firstAttribute="trailing" secondItem="DjP-eS-tkL" secondAttribute="trailing" id="FgP-uh-W4r"/>
                                 <constraint firstAttribute="bottom" secondItem="O6t-fs-glB" secondAttribute="bottom" id="Lqa-m3-oGK"/>
+                                <constraint firstItem="DjP-eS-tkL" firstAttribute="leading" secondItem="9pW-N2-5gA" secondAttribute="leading" id="QyK-NP-3fA"/>
+                                <constraint firstItem="DjP-eS-tkL" firstAttribute="top" secondItem="9pW-N2-5gA" secondAttribute="top" id="c5b-Re-NL9"/>
                                 <constraint firstItem="O6t-fs-glB" firstAttribute="top" secondItem="9pW-N2-5gA" secondAttribute="top" id="ehT-Jx-9SO"/>
                             </constraints>
                         </view>

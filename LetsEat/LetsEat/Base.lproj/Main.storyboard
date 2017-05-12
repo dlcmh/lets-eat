@@ -28,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="58" y="55"/>
         </scene>
-        <!--EXPLORE-->
+        <!--View Controller-->
         <scene sceneID="rNo-v1-Ohn">
             <objects>
                 <viewController id="AaW-fK-ubp" sceneMemberID="viewController">
@@ -41,11 +41,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="EXPLORE" image="icon-explore-off" selectedImage="icon-explore-on" id="I4l-pa-PpM"/>
+                    <navigationItem key="navigationItem" id="o2P-tf-Nzd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oB2-Ig-gDN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="-600"/>
+            <point key="canvasLocation" x="996" y="-600.44977511244383"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="9Tc-Yf-gio">
@@ -57,13 +57,32 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="AaW-fK-ubp" kind="relationship" relationship="viewControllers" id="6pc-fZ-csn"/>
+                        <segue destination="MVR-La-UPv" kind="relationship" relationship="viewControllers" id="6pc-fZ-csn"/>
                         <segue destination="UzC-K5-jRe" kind="relationship" relationship="viewControllers" id="brt-8C-uqF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yi3-BO-2WL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-894" y="-272"/>
+        </scene>
+        <!--EXPLORE-->
+        <scene sceneID="H3Q-1b-K1E">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MVR-La-UPv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="EXPLORE" image="icon-explore-off" selectedImage="icon-explore-on" id="I4l-pa-PpM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g7I-cf-6Dx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AaW-fK-ubp" kind="relationship" relationship="rootViewController" id="dMh-Ay-YYU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LDq-N2-Cau" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="-600.44977511244383"/>
         </scene>
     </scenes>
     <resources>

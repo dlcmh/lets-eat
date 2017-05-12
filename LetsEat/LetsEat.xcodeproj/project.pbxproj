@@ -12,6 +12,8 @@
 		1C6431C21EC54F31003F9088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6431C01EC54F31003F9088 /* LaunchScreen.storyboard */; };
 		1C6431CA1EC5513A003F9088 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6431C91EC5513A003F9088 /* assets.xcassets */; };
 		1C6431CD1EC5912E003F9088 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6431CC1EC5912E003F9088 /* MapKit.framework */; };
+		1C6431D01EC59202003F9088 /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6431CE1EC59202003F9088 /* Explore.storyboard */; };
+		1C6431D21EC59232003F9088 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6431D11EC59232003F9088 /* Map.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1C6431C31EC54F31003F9088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C6431C91EC5513A003F9088 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
 		1C6431CC1EC5912E003F9088 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1C6431CF1EC59202003F9088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Explore.storyboard; sourceTree = "<group>"; };
+		1C6431D11EC59232003F9088 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1C6431B71EC54F31003F9088 /* AppDelegate.swift */,
 				1C6431C91EC5513A003F9088 /* assets.xcassets */,
 				1C6431BB1EC54F31003F9088 /* Main.storyboard */,
+				1C6431D11EC59232003F9088 /* Map.storyboard */,
+				1C6431CE1EC59202003F9088 /* Explore.storyboard */,
 				1C6431C01EC54F31003F9088 /* LaunchScreen.storyboard */,
 				1C6431C31EC54F31003F9088 /* Info.plist */,
 			);
@@ -133,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C6431D01EC59202003F9088 /* Explore.storyboard in Resources */,
 				1C6431C21EC54F31003F9088 /* LaunchScreen.storyboard in Resources */,
+				1C6431D21EC59232003F9088 /* Map.storyboard in Resources */,
 				1C6431BD1EC54F31003F9088 /* Main.storyboard in Resources */,
 				1C6431CA1EC5513A003F9088 /* assets.xcassets in Resources */,
 			);
@@ -167,6 +175,14 @@
 				1C6431C11EC54F31003F9088 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1C6431CE1EC59202003F9088 /* Explore.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C6431CF1EC59202003F9088 /* Base */,
+			);
+			name = Explore.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

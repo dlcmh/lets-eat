@@ -47,17 +47,17 @@
                             <rect key="frame" x="128.5" y="5.5" width="118" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O6t-fs-glB">
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="O6t-fs-glB">
                                     <rect key="frame" x="0.0" y="0.0" width="118" height="33"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIN-30-Drh">
-                                            <rect key="frame" x="0.0" y="0.0" width="42" height="33"/>
+                                            <rect key="frame" x="0.0" y="6.5" width="95.5" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="o9s-sN-y1p">
-                                            <rect key="frame" x="42" y="0.0" width="76" height="33"/>
+                                            <rect key="frame" x="95.5" y="13" width="22.5" height="7"/>
                                         </imageView>
                                     </subviews>
                                 </stackView>

@@ -60,13 +60,8 @@
 		1C6431B61EC54F31003F9088 /* LetsEat */ = {
 			isa = PBXGroup;
 			children = (
-				1C6431B71EC54F31003F9088 /* AppDelegate.swift */,
-				1C6431C91EC5513A003F9088 /* assets.xcassets */,
-				1C6431BB1EC54F31003F9088 /* Main.storyboard */,
-				1C6431D11EC59232003F9088 /* Map.storyboard */,
-				1C6431CE1EC59202003F9088 /* Explore.storyboard */,
-				1C6431C01EC54F31003F9088 /* LaunchScreen.storyboard */,
-				1C6431C31EC54F31003F9088 /* Info.plist */,
+				1C6431D41EC592DE003F9088 /* Application */,
+				1C6431D31EC592D2003F9088 /* Assets */,
 			);
 			path = LetsEat;
 			sourceTree = "<group>";
@@ -77,6 +72,107 @@
 				1C6431CC1EC5912E003F9088 /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C6431D31EC592D2003F9088 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1C6431C31EC54F31003F9088 /* Info.plist */,
+				1C6431D61EC59309003F9088 /* Images */,
+				1C6431D51EC59301003F9088 /* Storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1C6431D41EC592DE003F9088 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1C6431DE1EC59353003F9088 /* Main */,
+				1C6431DD1EC5934A003F9088 /* Explore */,
+				1C6431DC1EC59343003F9088 /* Restaurant */,
+				1C6431DB1EC59337003F9088 /* Map */,
+				1C6431DA1EC59331003F9088 /* Location */,
+				1C6431D91EC5932C003F9088 /* Review */,
+				1C6431D81EC59320003F9088 /* Review List */,
+				1C6431D71EC5931A003F9088 /* Common */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		1C6431D51EC59301003F9088 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1C6431BB1EC54F31003F9088 /* Main.storyboard */,
+				1C6431D11EC59232003F9088 /* Map.storyboard */,
+				1C6431CE1EC59202003F9088 /* Explore.storyboard */,
+				1C6431C01EC54F31003F9088 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		1C6431D61EC59309003F9088 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1C6431C91EC5513A003F9088 /* assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1C6431D71EC5931A003F9088 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1C6431D81EC59320003F9088 /* Review List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Review List";
+			sourceTree = "<group>";
+		};
+		1C6431D91EC5932C003F9088 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Review;
+			sourceTree = "<group>";
+		};
+		1C6431DA1EC59331003F9088 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		1C6431DB1EC59337003F9088 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		1C6431DC1EC59343003F9088 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Restaurant;
+			sourceTree = "<group>";
+		};
+		1C6431DD1EC5934A003F9088 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Explore;
+			sourceTree = "<group>";
+		};
+		1C6431DE1EC59353003F9088 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1C6431B71EC54F31003F9088 /* AppDelegate.swift */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

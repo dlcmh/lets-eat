@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MAP-->
+        <!--View Controller-->
         <scene sceneID="kqI-q5-FlV">
             <objects>
                 <viewController id="UzC-K5-jRe" sceneMemberID="viewController">
@@ -22,11 +22,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="MAP" image="icon-map-off" selectedImage="icon-map-on" id="wKn-RJ-Ghe"/>
+                    <navigationItem key="navigationItem" id="Yai-U6-CG0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3cs-9y-Y9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="55"/>
+            <point key="canvasLocation" x="996" y="54.422788605697157"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rNo-v1-Ohn">
@@ -58,7 +58,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="MVR-La-UPv" kind="relationship" relationship="viewControllers" id="6pc-fZ-csn"/>
-                        <segue destination="UzC-K5-jRe" kind="relationship" relationship="viewControllers" id="brt-8C-uqF"/>
+                        <segue destination="hDu-cM-DSY" kind="relationship" relationship="viewControllers" id="brt-8C-uqF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yi3-BO-2WL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -83,6 +83,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LDq-N2-Cau" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="56.799999999999997" y="-600.44977511244383"/>
+        </scene>
+        <!--MAP-->
+        <scene sceneID="z7L-Lm-B9n">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hDu-cM-DSY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="MAP" image="icon-map-off" selectedImage="icon-map-on" id="wKn-RJ-Ghe"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gXY-jz-RUr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UzC-K5-jRe" kind="relationship" relationship="rootViewController" id="5cP-hP-XaF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VdJ-2w-eer" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="54.422788605697157"/>
         </scene>
     </scenes>
     <resources>
